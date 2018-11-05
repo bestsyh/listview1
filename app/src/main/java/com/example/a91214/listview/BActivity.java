@@ -1,13 +1,9 @@
-package com.example.a91214.listview;
+/*package com.example.a91214.listview;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -17,7 +13,7 @@ private EditText txt2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_b);
+        setContentView(R.layout.activity_main2);
 
         txt2=(EditText)findViewById(R.id.edittext1);
         Bundle bundle=this.getIntent().getExtras();
@@ -46,6 +42,6 @@ private EditText txt2;
 
             }
         }}
-
+*/
 
 

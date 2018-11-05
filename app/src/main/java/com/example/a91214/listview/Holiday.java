@@ -10,19 +10,44 @@ import android.widget.BaseAdapter;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
-/*
 public class Holiday implements Serializable{
     private  String name;
+    private Date day;
+    private int pictureId;
+    private  double price;
     public   void  setName(String name){
         this.name=name;
+    }
+    public void setDay(Date  day){
+        this.day=day;
+    }
+    public Date getDay(){
+        return  day;
     }
     public   String getName(){
         return  name;
     }
+    public  int getPictureId(int pictureId){
+         return pictureId;
+    }
+    public  void setPictureId(int pictureId){
+        this.pictureId=pictureId;
+    }
+    public  int getPictureId(){
+        return pictureId;
+    }
+    public double getPrice(){
+        return  price;
+    }
+    public  void  setPrice(double price){
+        this.price=price;
+    }
 
 
-}*/
+
+}
 /*
 public class MyListViewAdapter extends BaseAdapter {
     private Context context;
